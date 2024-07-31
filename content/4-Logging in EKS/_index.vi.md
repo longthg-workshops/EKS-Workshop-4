@@ -18,40 +18,40 @@ Trong lab này, chúng ta sẽ:
 - Làm thế nào để thiết lập agent ghi log (Fluent Bit) để stream các log của Pod đến Amazon CloudWatch
 
 
-![EKS workshop](/images/0006/0001.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0001.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/0002.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0002.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/0003.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0003.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/0004.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0004.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/0005.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0005.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/0006.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0006.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/0007.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0007.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/0008.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0008.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/0009.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/0009.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00010.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00010.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00011.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00011.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00012.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00012.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00013.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00013.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00014.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00014.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00015.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00015.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00016.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00016.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00017.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00017.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00018.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00018.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0006/00019.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0006/00019.png?featherlight=false&width=90pc)

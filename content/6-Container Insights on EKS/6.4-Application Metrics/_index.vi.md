@@ -110,17 +110,17 @@ EOF
 
 11. Mở bảng điều khiển CloudWatch và điều hướng đến phần Dashboards:
 
-![EKS workshop](/images/0007/0004.jpg?featherlight=false&width=60pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0004.jpg?featherlight=false&width=60pc)
 
 12.  Chọn bảng điều khiển Order-Service-Metrics để xem các panel trong bảng điều khiển đó:
 
-![EKS workshop](/images/0007/0005.jpg?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0005.jpg?featherlight=false&width=90pc)
 
 
 13.  Chúng ta có thể xem cách bảng điều khiển được cấu hình để truy vấn CloudWatch bằng cách di chuột qua tiêu đề của bảng **Orders by Product** và nhấp vào nút **Edit**:
 
 
-![EKS workshop](/images/0007/0006.jpg?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0006.jpg?featherlight=false&width=90pc)
 
 14. Đoạn truy vấn được sử dụng để tạo bảng điều này được hiển thị ở cuối trang:
 

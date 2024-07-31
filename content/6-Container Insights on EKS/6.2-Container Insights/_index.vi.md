@@ -15,7 +15,7 @@ pre: "<b> 6.2 </b>"
 
 3. Chọn "Performance Monitoring" từ menu dropdown ở đầu trang, và sau đó chọn loại tài nguyên mà bạn muốn xem. Ví dụ, chọn "EKS Pods" để có các số liệu cơ bản như CPU, bộ nhớ và sự sử dụng cho các Pods đang chạy trong cụm EKS của chúng ta:
 
-![EKS workshop](/images/0007/0001.jpg?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0001.jpg?featherlight=false&width=90pc)
 
 Bạn có thể thiết lập một cảnh báo CloudWatch trên bất kỳ số liệu nào mà Container Insights thu thập.
 

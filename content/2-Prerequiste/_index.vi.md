@@ -18,5 +18,5 @@ Trong phần thực hành này, chúng ta sẽ xem tất cả các loại tài n
 
 Chúng ta sẽ xem các tài nguyên được tạo ra bởi ứng dụng mẫu. Lưu ý rằng bạn chỉ sẽ thấy các tài nguyên mà bạn có [quyền RBAC](https://docs.aws.amazon.com/eks/latest/userguide/view-kubernetes-resources.html#view-kubernetes-resources-permissions) để truy cập, được tạo ra trong quá trình chuẩn bị môi trường.
 
-![EKS](/images/0008/0001.jpg?featherlight=false&width=90pc)
+![EKS](/EKS-Workshop-4/images/0008/0001.jpg?featherlight=false&width=90pc)
 

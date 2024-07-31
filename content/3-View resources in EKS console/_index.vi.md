@@ -11,6 +11,6 @@ pre: "<b> 3. </b>"
 
 #### Các bước chuẩn bị
 
-![EKS workshop](/images/0005/0001.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0001.png?featherlight=false&width=90pc)
 
 
