@@ -1,6 +1,5 @@
 ---
 title: "Dữ liệu Container Insights với CloudWatch Logs Insights"
-date: "`r Sys.Date()`"
 weight: 3
 chapter: false
 pre: "<b> 6.3 </b>"

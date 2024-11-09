@@ -1,6 +1,5 @@
 ---
 title: "Số liệu Container Insights trong Amazon CloudWatch"
-date: "`r Sys.Date()`"
 weight: 2
 chapter: false
 pre: "<b> 6.2 </b>"

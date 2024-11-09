@@ -1,6 +1,5 @@
 ---
-title: "Application Metrics"
-date: "`r Sys.Date()`"
+title: "Số liệu từ ứng dụng"
 weight: 5
 chapter: false
 pre: "<b> 5.5 </b>"

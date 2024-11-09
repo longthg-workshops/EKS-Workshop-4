@@ -1,23 +1,28 @@
 ---
-title: "Pod logging"
-date: "`r Sys.Date()`"
+title: "Ghi log từ pod"
 weight: 2
 chapter: false
 pre: "<b> 4.2 </b>"
 ---
 
+### Trước khi bắt đầu
+
 Chuẩn bị môi trường cho phần này:
-
-```
+```bash
 prepare-environment observability/logging/pods
-
 ```
-
 Lệnh này sẽ thực hiện các thay đổi sau vào môi trường lab của bạn:
 
-Cài đặt AWS cho Fluent Bit trong cụm Amazon EKS.
+- **_Cài đặt AWS cho Fluent Bit trong cụm Amazon EKS._**
 
-Bạn có thể xem Terraform áp dụng các thay đổi này ở đây.
+![Prepare](../../../../../images/0006/00011.png?featherlight=false&width=90pc)
+
+Bạn có thể xem Terraform áp dụng các thay đổi này [ở đây](https://github.com/aws-samples/eks-workshop-v2/tree/stable/manifests/modules/observability/logging/pods/.workshop/terraform).
+
+---
+
+### Giới thiệu về lab
+
 Theo nguyên tắc Twelve-Factor App manifesto, cung cấp tiêu chuẩn vàng cho việc thiết kế các ứng dụng hiện đại, các ứng dụng container nên đầu ra log của chúng ra stdout và stderr. Điều này cũng được coi là thực hành tốt nhất trong Kubernetes và các hệ thống thu thập log cấp cụm được xây dựng dựa trên tiền đề này.
 
 Kiến trúc ghi log của Kubernetes xác định ba cấp độ phân biệt:
@@ -32,8 +37,6 @@ Kubernetes, mặc định, không cung cấp một giải pháp tự nhiên đ�
 
 Trong lab này, chúng tôi sẽ chỉ ra cách một đại diện ghi log có thể được thiết lập để thu thập log từ các node trong EKS và gửi chúng đến CloudWatch Logs.
 
-
-
-
-
-
+{{% notice info %}}
+Nếu bạn đang dùng CDK Observability Accelerator, hãy xem qua [AWS for Fluent Bit Addon](https://aws-quickstart.github.io/cdk-eks-blueprints/addons/aws-for-fluent-bit/). **_AWS for FluentBit Addon_** có thể được cấu hình để chuyển tiếp log tới nhiều nơi khác nhau, bao gồm CloudWatch, Amazon Kinesis, và AWS OpenSearch.
+{{% /notice %}}
