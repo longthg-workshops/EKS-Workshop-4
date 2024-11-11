@@ -6,10 +6,8 @@ pre: "<b> 1.1 </b>"
 ---
 
 Trong phần này, chúng ta sẽ tìm hiểu về các khái niệm sau:
-
-### **Đặt vấn đề**
-- **Controllers** là bộ não đằng sau **Kubernetes**.
-- **Replica** là gì và tại sao chúng ta cần một **replication controller** ?
+- Replication Controller
+- ReplicaSet
 
 ### **Sự khác biệt giữa ReplicaSet và Replication Controller**
 **Replication Controller** là công nghệ cũ được thay thế bằng **ReplicaSet**.
@@ -47,17 +45,14 @@ $ kubectl create -f rc-definition.yaml
 
 Để liệt kê tất cả các **replication controllers**
 
-```
-
+```bash
 $ kubectl get replicationcontroller
-
 ```
 
 Để liệt kê các pod được khởi chạy bởi **replication controller**
 
-```
+```bash
 $ kubectl get pods
-
 ```
 
 ### Tạo một **ReplicaSet**
