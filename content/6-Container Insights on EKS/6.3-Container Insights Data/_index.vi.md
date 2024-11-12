@@ -22,7 +22,7 @@ STATS avg(node_cpu_utilization) as avg_node_cpu_utilization by NodeName
 | SORT avg_node_cpu_utilization DESC 
 ```
 
-![EKS workshop](../../../../images/0007/0002.jpg?featherlight=false&width=90pc)
+![EKS workshop](../../../images/0007/0002.jpg?featherlight=false&width=90pc)
 
 5. Đoạn truy vấn này hiển thị danh sách các node, được sắp xếp theo mức sử dụng trung bình của CPU của node.
 
@@ -33,7 +33,7 @@ STATS avg(number_of_container_restarts) as avg_number_of_container_restarts by P
 | SORT avg_number_of_container_restarts DESC
 ```
 
-![EKS workshop](../../../../images/0007/0003.jpg?featherlight=false&width=90pc)
+![EKS workshop](../../../images/0007/0003.jpg?featherlight=false&width=90pc)
 
 
 Truy vấn này hiển thị danh sách các pods của bạn, được sắp xếp theo số lần khởi động lại trung bình của container.

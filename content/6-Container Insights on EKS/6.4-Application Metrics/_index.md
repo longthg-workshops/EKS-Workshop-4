@@ -227,11 +227,11 @@ EOF
 
 11. Choose the dashboard **Order-Service-Metrics** to review the panels within the dashboard:
 
-![Application Metrics](../../../../images/0007/0004.jpg?featherlight=false&width=60pc)
+![Application Metrics](../../images/0007/0004.jpg?featherlight=false&width=60pc)
 
 12. We can see how the dashboard was configured to query CloudWatch by hovering over the title of the "Orders by Product" panel and clicking the "Edit" button:
 
-![Edit Panel](../../../../images/0007/0005.jpg?featherlight=false&width=90pc)
+![Edit Panel](../../images/0007/0005.jpg?featherlight=false&width=90pc)
 
 13. The query used to create this panel is displayed at the bottom of the page:
 

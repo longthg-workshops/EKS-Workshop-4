@@ -9,10 +9,10 @@ Let's take a look at the logs in the [CloudWatch Logs console](https://console.a
 
 Filter for **/aws/eks** prefix and select the cluster you want verify the logs:
 
-![EKS workshop](../../../../images/0006/0006.png?featherlight=false&width=90pc)
+![EKS workshop](../../../images/0006/0006.png?featherlight=false&width=90pc)
 
 You will be presented with a number of log streams in the group:
 
-![EKS workshop](../../../../images/0006/0007.png?featherlight=false&width=90pc)
+![EKS workshop](../../../images/0006/0007.png?featherlight=false&width=90pc)
 
 Select any of these log streams to view the entries being sent to CloudWatch Logs by the EKS control plane.
