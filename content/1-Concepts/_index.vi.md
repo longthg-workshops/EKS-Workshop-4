@@ -6,9 +6,7 @@ pre: "<b> 1. </b>"
 ---
 
 Trước khi đi vào workshop này, cùng đi qua một số khái niệm trong Kubernetes sau:
-1. [ReplicaSets](./1.1-ReplicaSets)
-2. [Deployments](./1.2-Deployments)
-3. [Namespaces](./1.3-Namespaces)
+
 
 ### Đọc thêm
 

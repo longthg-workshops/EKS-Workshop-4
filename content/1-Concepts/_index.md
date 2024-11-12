@@ -6,9 +6,7 @@ pre: "<b> 1. </b>"
 ---
 
 Before dwelling into this workshop, let's have you go through a handful of concepts in Kubernetes:
-1. [ReplicaSets](./1.1-ReplicaSets)
-2. [Deployments](./1.2-Deployments)
-3. [Namespaces](./1.3-Namespaces)
+
 
 ### Further reading
 
