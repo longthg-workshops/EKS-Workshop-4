@@ -5,36 +5,42 @@ chapter: false
 pre: "<b> 1.3 </b>"
 ---
 
-#### Giới thiệu về Namespaces trong Kubernetes
-Trong phần này, chúng ta sẽ tìm hiểu về **Namespaces**.
+### Giới thiệu về Namespaces
 
-Kể từ khi bắt đầu workshop, đến thời điểm này, chúng ta đã tạo ra các đối tượng như **PODs**, **Deployments** và **Services** trong cluster của chúng ta. Mọi thứ chúng ta đã làm, đều nằm trong cùng một **NAMESPACE**.
+Trong phần này, chúng ta sẽ tìm hiểu về **Namespace**.
 
-**Namespace** mặc định trong Kubernetes là không gian mặc định được tạo tự động khi Kubernetes được thiết lập ban đầu.
+Trong các workshop về EKS, chúng ta sẽ phải tạo các đối tượng như **Pod**, **Deployment** và **Service** trong cluster của chúng ta. Tất cả các đối tượng trên, đều nằm trong cùng một **namespace**.
 
-```
+**Namespace** mặc định trong Kubernetes là không gian mặc định được tạo tự động khi Kubernetes mới được cài đặt và thiết lập.
+
+### Các lệnh
+
+Để xem toàn bộ các namespace, hãy sử dụng lệnh sau:
+
+```bash
 kubectl get namespaces
 ```
 
 Bạn cũng có thể tạo các **Namespaces** của riêng mình.
 
-```
+```bash
 kubectl create namespace dev
 ```
 
-Để liệt kê các **POD** trong **namespace** mặc định:
+Để liệt kê các **Pod** trong **namespace** mặc định:
 
-```
+```bash
 kubectl get pods
 ```
 
-Để liệt kê các **POD** trong một **namespace** khác, sử dụng lệnh `kubectl get pods` cùng với cờ hoặc đối số `--namespace`.
+Để liệt kê các **Pod** trong một **namespace** khác, sử dụng lệnh `kubectl get pods` cùng với cờ hoặc đối số `--namespace`.
 
-```
+```bash
 kubectl get pods --namespace=kube-system
 ```
+_* Thay thế kube-system bằng bất kỳ namespace nào bạn muốn xem_
 
-Khi tạo một **POD** từ một tệp định nghĩa **POD**, **POD** sẽ được tạo trong **namespace** mặc định.
+Khi tạo một **Pod** từ một tệp định nghĩa **Pod**, **Pod** sẽ được tạo trong **namespace** mặc định nếu không có trường **namespace**.
 
 ```yaml
 apiVersion: v1
@@ -50,17 +56,17 @@ spec:
     image: nginx
 ```
 
-```
+```bash
 kubectl create -f pod-definition.yaml
 ```
 
-Để tạo **POD** với tệp định nghĩa **POD** trong một **namespace** khác, sử dụng tùy chọn `--namespace`.
+Để tạo **Pod** với cùng tệp định nghĩa **Pod** trong một **namespace** khác, sử dụng tùy chọn `--namespace`.
 
-```
+```bash
 kubectl create -f pod-definition.yaml --namespace=dev
 ```
 
-Nếu bạn muốn đảm bảo rằng **POD** này luôn được tạo trong môi trường dev, thậm chí khi không chỉ định trong dòng lệnh, bạn có thể di chuyển định nghĩa `--namespace` vào tệp định nghĩa **POD**.
+Nếu bạn muốn đảm bảo rằng **Pod** này luôn được tạo trong môi trường dev, thậm chí khi không chỉ định trong dòng lệnh, bạn có thể di chuyển định nghĩa `--namespace` vào tệp định nghĩa **Pod**.
 
 ```yaml
 apiVersion: v1
@@ -86,29 +92,29 @@ metadata:
   name: dev
 ```
 
-```
+```bash
 kubectl create -f namespace-dev.yaml
 ```
 
 Hoặc có thể sử dụng lệnh ngắn gọn:
 
-```
+```bash
 kubectl create namespace dev
 ```
 
 Mặc định, chúng ta sẽ ở trong một **namespace** mặc định. Để chuyển đổi sang một **namespace** cụ thể một cách vĩnh viễn, chạy lệnh sau:
 
-```
+```bash
 kubectl config set-context $(kubectl config current-context) --namespace=dev
 ```
 
-Để xem các **POD** trong tất cả các **namespaces**:
+Để xem các **Pod** trong tất cả các **namespaces**:
 
-```
+```bash
 kubectl get pods --all-namespaces
 ```
 
-Để giới hạn tài nguyên trong một **namespace**, tạo một **resource quota**. Để tạo một, bắt đầu với tệp định nghĩa **ResourceQuota**.
+Để giới hạn tài nguyên trong một **namespace**, tạo một **resource quota**. Để tạo một quota, bắt đầu với tệp định nghĩa **ResourceQuota**.
 
 ```yaml
 apiVersion: v1
@@ -125,11 +131,11 @@ spec:
     limits.memory: 10Gi
 ```
 
-```
+```bash
 kubectl create -f compute-quota.yaml
 ```
 
-#### Tài liệu tham khảo Kubernetes:
+#### Tài liệu tham khảo:
 
 - [Kubernetes - Overview - Working with Objects - Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 - [Kubernetes - Tasks - Administer Cluster - Namespaces Walkthrough](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/)

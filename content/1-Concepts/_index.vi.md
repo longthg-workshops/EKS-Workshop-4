@@ -9,8 +9,6 @@ Trước khi đi vào workshop này, cùng đi qua một số khái niệm trong
 1. [ReplicaSets](./1.1-ReplicaSets)
 2. [Deployments](./1.2-Deployments)
 3. [Namespaces](./1.3-Namespaces)
-4. [Quản lý các thành phần trong cụm](./1.4-Monitor-Components)
-5. [Quản lý log ứng dụng](./1.5-AppLogMGMT)
 
 ### Đọc thêm
 

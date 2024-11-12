@@ -18,7 +18,7 @@ A ReplicationController ensures that a specified number of pod replicas are runn
 
 For short, a ReplicationController makes sure that a pod or a homogeneous set of pods is always up and available. A ReplicationController is similar to a process supervisor, but instead of supervising individual processes on a single node, the ReplicationController supervises multiple pods across multiple nodes.
 
-ReplicationController is often abbreviated to "rc" in discussion, and as a shortcut in kubectl commands.
+ReplicationController is often abbreviated to "rc", and as a shortcut in `kubectl` commands.
 
 #### ReplicaSet
 Similar to a ReplicationController, a ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods.
@@ -119,11 +119,6 @@ kubectl get replicaset
 ```bash
 kubectl get pods
 ```
-    
-## Labels and Selectors
-#### What is the deal with Labels and Selectors? Why do we label pods and objects in kubernetes?
-
-
   
 ### How to scale replicaset
 - There are multiple methods to scale replicaset:
@@ -166,13 +161,13 @@ kubectl apply -f replicaset-definition.yaml
 kubectl scale --replicas=6 -f replicaset-definition.yaml
 ```
 
-  You can also use **`kubectl scale`** command with type (e.g. `replicaset`) and name (e.g. `myapp-replicaset`):
+  You can also use **`kubectl scale`** command with type (e.g. `replicaset`) and name (e.g. `myapp-replicaset`) in place of the definition file:
 
 ```bash
 kubectl scale --replicas=6 replicaset myapp-replicaset
 ```
 
-#### K8s Reference Docs:
-- https://sematext.com/glossary/kubernetes-replica/
-- https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
-- https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/
+### K8s Reference Docs:
+- [Kubernetes: Replica](https://sematext.com/glossary/kubernetes-replica/)
+- [Kubernetes: Replicaset](https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/)
+- [Kubernetes: Replication Controller](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/)
