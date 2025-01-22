@@ -12,7 +12,7 @@ prepare-environment observability/logging/cluster
 ```
 {{% /notice %}}
 
-![Lab prepare](/images/0006/0002.png?featherlight=false&width=90pc)
+![Lab prepare](/EKS-Workshop-4/images/0006/0002.png?featherlight=false&width=90pc)
 
 Amazon EKS control plane logging cung cấp nhật ký kiểm tra và chẩn đoán trực tiếp từ lớp điều khiển Amazon EKS đến CloudWatch Logs trong tài khoản của bạn. Nhật ký này giúp bạn dễ dàng bảo mật và vận hành các cụm của mình. Bạn có thể chọn chính xác loại nhật ký bạn cần và nhật ký được gửi dưới dạng luồng nhật ký đến một nhóm cho mỗi cụm Amazon EKS trong CloudWatch.
 

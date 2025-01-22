@@ -91,20 +91,20 @@ EOF
 
 7. Mở Grafana như chúng ta đã làm trong phần trước:
 
-![EKS workshop](/images/0007/0007.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0007.png?featherlight=false&width=90pc)
 
 
 8. Đi đến trang bảng điều khiển và nhấp vào bảng điều khiển Order Service Metrics để xem lại các bảng trong bảng điều khiển:
 
-![EKS workshop](/images/0007/0008.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0008.png?featherlight=false&width=90pc)
 
 9. Chúng ta có thể xem cách bảng điều khiển được cấu hình để truy vấn AMP bằng cách di chuột qua tiêu đề của bảng Orders by Product và nhấp vào nút "Edit":
 
-![EKS workshop](/images/0007/0009.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0009.png?featherlight=false&width=90pc)
 
 10. Truy vấn PromQL được sử dụng để tạo bảng điều này được hiển thị ở cuối trang:
 
-![EKS workshop](/images/0007/00010.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/00010.png?featherlight=false&width=90pc)
 
 11. Trong trường hợp này, chúng ta đang sử dụng truy vấn:
 

@@ -20,7 +20,7 @@ STATS avg(node_cpu_utilization) as avg_node_cpu_utilization by NodeName
 | SORT avg_node_cpu_utilization DESC 
 ```
 
-![EKS workshop](/images/0007/0002.jpg?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0002.jpg?featherlight=false&width=90pc)
 
 5. This query shows a list of nodes, sorted by the node's average CPU usage.
 
@@ -31,6 +31,6 @@ STATS avg(number_of_container_restarts) as avg_number_of_container_restarts by P
 | SORT avg_number_of_container_restarts DESC
 ```
 
-![EKS workshop](/images/0007/0003.jpg?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0007/0003.jpg?featherlight=false&width=90pc)
 
 This query shows a list of your pods, sorted by their average container restarts.

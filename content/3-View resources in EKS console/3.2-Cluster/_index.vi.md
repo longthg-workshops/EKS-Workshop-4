@@ -21,22 +21,22 @@ Phần tiếp theo, Pods, mô tả tất cả các pod được triển khai tr�
 Phần tiếp theo mô tả bất kỳ Taints, nhãn và chú thích nào có liên quan.
 
 
-![EKS workshop](/images/0005/00014.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/00014.png?featherlight=false&width=90pc)
 
 
-![EKS workshop](/images/0005/00015.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/00015.png?featherlight=false&width=90pc)
 
 
-![EKS workshop](/images/0005/00016.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/00016.png?featherlight=false&width=90pc)
 
 
 
-![EKS workshop](/images/0005/00017.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/00017.png?featherlight=false&width=90pc)
 
 
 #### Namespaces
 
 Namespaces là một cơ chế để tổ chức các cụm (clusters), có thể rất hữu ích khi các nhóm hoặc dự án khác nhau chia sẻ một cụm Kubernetes. Trong ứng dụng mẫu của chúng ta, chúng ta có các dịch vụ nhỏ - carts, checkout, catalog, assets mà tất cả đều chia sẻ cùng một cụm sử dụng cấu trúc namespace.
 
-![EKS workshop](/images/0005/0018.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0018.png?featherlight=false&width=90pc)
 

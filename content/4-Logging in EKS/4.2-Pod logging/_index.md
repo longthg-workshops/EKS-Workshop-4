@@ -15,7 +15,7 @@ This will make the following changes to your lab environment:\
 \
     - Install AWS for Fluent Bit in the Amazon EKS cluster\
 \
-![Prepare](/images/0006/00011.png?featherlight=false&width=90pc)\
+![Prepare](/EKS-Workshop-4/images/0006/00011.png?featherlight=false&width=90pc)\
 \
 You can view the Terraform that applies these changes [here](https://github.com/aws-samples/eks-workshop-v2/tree/stable/manifests/modules/observability/logging/pods/.workshop/terraform).\
 

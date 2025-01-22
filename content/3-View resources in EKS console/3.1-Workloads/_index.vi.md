@@ -15,15 +15,15 @@ Pods resource view hiển thị tất cả các pods đại diện cho đối t�
 
 1. Mặc định, tất cả các loại tài nguyên API Kubernetes được hiển thị, nhưng bạn có thể lọc theo namespace hoặc tìm kiếm các giá trị cụ thể để nhanh chóng tìm thấy điều bạn đang tìm kiếm. Dưới đây, bạn sẽ thấy các pods được lọc theo `namespace=catalog`.
 
-![EKS workshop](/images/0005/0002.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0002.png?featherlight=false&width=90pc)
 
 2. Xem tài nguyên cho tất cả các loại tài nguyên API Kubernetes, cung cấp hai chế độ xem - cấu trúc và raw. Chế độ xem cấu trúc cung cấp một biểu diễn hình ảnh của tài nguyên để giúp truy cập dữ liệu cho tài nguyên. Trong ví dụ này (dưới đây), bạn có thể thấy một chế độ xem cấu trúc cho pod catalog phân chia thông tin pod thành các phần Info, Containers, Labels và Annotations. Nó cũng mô tả replicaset, namespace và node liên quan.
 
-![EKS workshop](/images/0005/0003.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0003.png?featherlight=false&width=90pc)
 
 3. Chế độ xem raw hiển thị đầu ra JSON đầy đủ từ API Kubernetes, có ích để hiểu cấu hình và trạng thái của các loại tài nguyên không có sự hỗ trợ xem cấu trúc trong bảng điều khiển Amazon EKS. Trong ví dụ xem raw, chúng tôi hiển thị chế độ xem raw cho pod catalog.
 
-![EKS workshop](/images/0005/0004.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0004.png?featherlight=false&width=90pc)
 
 #### **ReplicaSets**
 
@@ -31,15 +31,15 @@ Một ReplicaSet là một đối tượng Kubernetes đảm bảo một tập h
 
 Nhấp vào replicaset orders-d6b4566fc và khám phá cấu hình. Bạn sẽ thấy các cấu hình dưới Info, Pods, nhãn và chi tiết của replica tối đa và mong muốn.
 
-![EKS workshop](/images/0005/0005.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0005.png?featherlight=false&width=90pc)
 
-![EKS workshop](/images/0005/0006.png?featherlight=false&width=90pc)
-
-
-![EKS workshop](/images/0005/0007.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0006.png?featherlight=false&width=90pc)
 
 
-![EKS workshop](/images/0005/0008.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0007.png?featherlight=false&width=90pc)
+
+
+![EKS workshop](/EKS-Workshop-4/images/0005/0008.png?featherlight=false&width=90pc)
 
 #### **DaemonSet**
 
@@ -49,10 +49,10 @@ Nhấp vào replicaset orders-d6b4566fc và khám phá cấu hình. Bạn sẽ t
 Nhấp vào daemonset kube-proxy và khám phá cấu hình. Bạn sẽ thấy các cấu hình dưới phần Thông tin, các pod đang chạy trên mỗi node, nhãn và chú thích.
 
 
-![EKS workshop](/images/0005/0009.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/0009.png?featherlight=false&width=90pc)
 
 
-![EKS workshop](/images/0005/00010.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/00010.png?featherlight=false&width=90pc)
 
 
 #### **Deployments**
@@ -62,12 +62,12 @@ Deployment là một đối tượng Kubernetes cho phép cập nhật khai báo
 Nhấp vào deployment orders và khám phá cấu hình. Bạn sẽ thấy chiến lược triển khai dưới mục Info, chi tiết pod dưới mục Pods, các nhãn và phiên bản triển khai.
 
 
-![EKS workshop](/images/0005/00011.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/00011.png?featherlight=false&width=90pc)
 
 
-![EKS workshop](/images/0005/00012.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/00012.png?featherlight=false&width=90pc)
 
 
-![EKS workshop](/images/0005/00013.png?featherlight=false&width=90pc)
+![EKS workshop](/EKS-Workshop-4/images/0005/00013.png?featherlight=false&width=90pc)
 
     

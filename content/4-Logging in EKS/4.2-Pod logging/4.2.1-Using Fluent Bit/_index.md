@@ -25,7 +25,7 @@ pod/aws-for-fluent-bit-rxhs7   1/1     Running   0          100m
 NAME                                DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE
 daemonset.apps/aws-for-fluent-bit   2         2         2       2            2           <none>          104m
 ```
-![FluentBit](/images/0006/00012.png?featherlight=false&width=90pc)
+![FluentBit](/EKS-Workshop-4/images/0006/00012.png?featherlight=false&width=90pc)
 
 The ConfigMap for aws-for-fluent-bit is configured to stream the contents of files in the directory `/var/log/containers/*.log` from each node to the CloudWatch log group `/eks-workshop/worker-fluentbit-logs`:
 
@@ -80,4 +80,4 @@ fluent-bit.conf:
 
 ```
 
-![FluentBitConfig](/images/0006/00013.png?featherlight=false&width=90pc)
+![FluentBitConfig](/EKS-Workshop-4/images/0006/00013.png?featherlight=false&width=90pc)

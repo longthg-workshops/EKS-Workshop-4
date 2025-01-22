@@ -11,12 +11,12 @@ Kubernetes is a portable, extensible, open source platform for managing containe
 
 The name Kubernetes originates from Greek, meaning helmsman or pilot. K8s as an abbreviation results from counting the eight letters between the "K" and the "s". Google open-sourced the Kubernetes project in 2014. Kubernetes combines over 15 years of Google's experience running production workloads at scale with best-of-breed ideas and practices from the community.
 
-![Kubernetes](/images/home/kubernetes.webp?width=70pc)
+![Kubernetes](/EKS-Workshop-4/images/home/kubernetes.webp?width=70pc)
 
 ### Amazon Elastic Kubernetes Service (EKS)
 Amazon Elastic Kubernetes Service (Amazon EKS) is a managed service that eliminates the need to install, operate, and maintain your own Kubernetes control plane on Amazon Web Services (AWS).
 
-![EKS](/images/home/EKS.png?width=90pc)
+![EKS](/EKS-Workshop-4/images/home/EKS.png?width=90pc)
 
 #### Features of Amazon EKS
 The following are key features of Amazon EKS:

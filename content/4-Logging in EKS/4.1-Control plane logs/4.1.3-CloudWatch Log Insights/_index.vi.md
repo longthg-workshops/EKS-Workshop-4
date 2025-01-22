@@ -14,7 +14,7 @@ Trong bài thực hành này, chúng ta sẽ xem một ví dụ về việc sử
 
 Bạn sẽ nhìn thấy một màn hình giống như sau:
 
-![log insights initial](/images/0006/0008.png?featherlight=false&width=90pc)
+![log insights initial](/EKS-Workshop-4/images/0006/0008.png?featherlight=false&width=90pc)
 
 Một trường hợp sử dụng phổ biến cho CloudWatch Log Insights là xác định các thành phần trong một cụm EKS đang tạo ra một lượng lớn các yêu cầu đến máy chủ API Kubernetes. Một cách để làm điều này là với truy vấn sau:
 
@@ -28,11 +28,11 @@ fields userAgent, requestURI, @timestamp, @message
 
 Truy vấn này kiểm tra các log kiểm toán Kubernetes và đếm số lượng yêu cầu API được thực hiện được nhóm theo userAgent và sắp xếp chúng theo thứ tự giảm dần. Trong bảng điều khiển Log Insights, chọn nhóm log cho cụm EKS của bạn.
 
-![Select group](/images/0006/0009.png?featherlight=false&width=90pc)
+![Select group](/EKS-Workshop-4/images/0006/0009.png?featherlight=false&width=90pc)
 
 Sao chép truy vấn vào bảng điều khiển và nhấn Chạy truy vấn, điều này sẽ trả về kết quả:
 
-![Query result](/images/0006/00010.png?featherlight=false&width=90pc)
+![Query result](/EKS-Workshop-4/images/0006/00010.png?featherlight=false&width=90pc)
 
 Thông tin này có thể rất quý giá để hiểu rõ các thành phần nào đang gửi yêu cầu đến máy chủ API.
 
