@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Observability in EKS"
 weight: 1
 chapter: false
 pre: "<b> 1. </b>"

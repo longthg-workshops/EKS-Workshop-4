@@ -1,5 +1,5 @@
 ---
-title: "Observability"
+title: "Quan sát EKS"
 weight: 1
 chapter: false
 ---
