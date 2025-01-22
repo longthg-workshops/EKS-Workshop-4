@@ -30,7 +30,7 @@ NAME                                DESIRED   CURRENT   READY   UP-TO-DATE   AVA
 daemonset.apps/aws-for-fluent-bit   2         2         2       2            2           <none>          104m
 ```
 
-![FluentBit](../../../../images/0006/00012.png?featherlight=false&width=90pc)
+![FluentBit](/images/0006/00012.png?featherlight=false&width=90pc)
 
 ConfigMap cho aws-for-fluent-bit được cấu hình để stream nội dung của các tệp trong thư mục /var/log/containers/*.log từ mỗi node đến nhóm log CloudWatch /eks-workshop/worker-fluentbit-logs:
 
@@ -87,4 +87,4 @@ fluent-bit.conf:
 ...........
 ```
 
-![FluentBitConfig](../../../../images/0006/00013.png?featherlight=false&width=90pc)
+![FluentBitConfig](/images/0006/00013.png?featherlight=false&width=90pc)

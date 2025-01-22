@@ -20,7 +20,7 @@ Tìm hiểu một bộ các module Cơ sở hạ tầng dưới dạng Mã _(Inf
 {{% /notice %}}
 
 ### Kiến trúc hệ thống quan sát thuộc AWS
-![AWS Native Observability](../images/home/cloud-native-obs-architecture.webp)
+![AWS Native Observability](/images/home/cloud-native-obs-architecture.webp)
 
 ### Kiến trúc hệ thống quan sát sử dụng phần mềm mã nguôn mở (OSS - Do AWS quản lý):
-![Open Source Managed Observability ](../images/home/oss-architecture.webp)
+![Open Source Managed Observability ](/images/home/oss-architecture.webp)

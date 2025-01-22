@@ -15,7 +15,7 @@ Lệnh này sẽ thực hiện các thay đổi sau vào môi trường lab củ
 
 - **_Cài đặt AWS cho Fluent Bit trong cụm Amazon EKS._**
 
-![Prepare](../../../images/0006/00011.png?featherlight=false&width=90pc)
+![Prepare](/images/0006/00011.png?featherlight=false&width=90pc)
 
 Bạn có thể xem Terraform áp dụng các thay đổi này [ở đây](https://github.com/aws-samples/eks-workshop-v2/tree/stable/manifests/modules/observability/logging/pods/.workshop/terraform).
 

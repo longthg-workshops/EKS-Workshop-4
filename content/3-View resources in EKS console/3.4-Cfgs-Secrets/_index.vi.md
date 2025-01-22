@@ -15,7 +15,7 @@ Nhấp vào ConfigMap drill down và bạn có thể xem tất cả các cấu h
 
 Nếu bạn nhấp vào ConfigMap checkout, bạn có thể xem các thuộc tính liên quan đến nó, trong trường hợp này, key REDIS_URL với giá trị của địa chỉ endpoint của redis. Như bạn thấy, giá trị không được mã hóa và ConfigMaps không nên được sử dụng để lưu trữ bất kỳ cặp key-value nào có tính bảo mật.
 
-![EKS workshop](../../../images/0005/00022.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0005/00022.png?featherlight=false&width=90pc)
 
 ### Secrets
 
@@ -26,4 +26,4 @@ Nhấp vào liên kết **Secrets** để xem tất cả các secrets cho cụm.
 Nếu bạn nhấp vào **Secrets** checkout-config, bạn có thể xem các secrets liên quan đến nó. Trong trường hợp này, lưu ý token được mã hóa. Bạn nên thấy giá trị giải mã cũng với nút chuyển đổi giải mã.
 
 
-![EKS workshop](../../../images/0005/00023.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0005/00023.png?featherlight=false&width=90pc)

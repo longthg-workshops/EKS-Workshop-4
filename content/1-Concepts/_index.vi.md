@@ -12,12 +12,12 @@ Kubernetes là một nền tảng nguồn mở, có tính cơ động, có thể
 
 Tên gọi Kubernetes có nguồn gốc từ tiếng Hy Lạp, có ý nghĩa là người lái tàu hoặc hoa tiêu. Google mở mã nguồn Kubernetes từ năm 2014. Kubernetes xây dựng dựa trên một thập kỷ rưỡi kinh nghiệm mà Google có được với việc vận hành một khối lượng lớn workload trong thực tế, kết hợp với các ý tưởng và thực tiễn tốt nhất từ cộng đồng.
 
-![Kubernetes](../../images/home/kubernetes.webp?width=70pc)
+![Kubernetes](/images/home/kubernetes.webp?width=70pc)
 
 ### Amazon Elastic Kubernetes Service (EKS)
 Amazon Elastic Kubernetes Service (Amazon EKS) là một dịch vụ được quản lý giúp loại bỏ nhu cầu cài đặt, vận hành và bảo trì lớp điều khiển Kubernetes của riêng bạn trên Amazon Web Services (AWS).
 
-![EKS](../../images/home/EKS.png?width=90pc)
+![EKS](/images/home/EKS.png?width=90pc)
 
 #### Các tính năng của Amazon EKS
 Sau đây là các tính năng chính của Amazon EKS:

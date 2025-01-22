@@ -139,19 +139,19 @@ EOF
 
 Open the Grafana as we did in the previous section:
 
-![Grafana dashboard](../../images/0007/0007.png?featherlight=false&width=90pc)
+![Grafana dashboard](/images/0007/0007.png?featherlight=false&width=90pc)
 
 Go to the dashboard page and click on the dashboard **Order Service Metrics** to review the panels within the dashboard:
 
-![Business Metrics](../../images/0007/0008.png?featherlight=false&width=90pc)
+![Business Metrics](/images/0007/0008.png?featherlight=false&width=90pc)
 
 We can see how the dashboard was configured to query AMP by hovering over the title of the "Orders by Product" panel and clicking the "Edit" button:
 
-![Edit Panel](../../images/0007/0009.png?featherlight=false&width=90pc)
+![Edit Panel](/images/0007/0009.png?featherlight=false&width=90pc)
 
 The PromQL query used to create this panel is displayed at the bottom of the page:
 
-![PromQL query](../../images/0007/00010.png?featherlight=false&width=90pc)
+![PromQL query](/images/0007/00010.png?featherlight=false&width=90pc)
 
 In this case we are using the query:
 

@@ -25,16 +25,16 @@ Mở Console CloudWatch Logs để kiểm tra các log này xuất hiện:
 
 [https://console.aws.amazon.com/cloudwatch/home?#logsV2:log-groups](https://console.aws.amazon.com/cloudwatch/home?#logsV2:log-groups)
 
-![EKS workshop](../../../../images/0006/00016.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0006/00016.png?featherlight=false&width=90pc)
 
 Bộ lọc cho fluentbit-cloudwatch để tìm các nhóm log được tạo bởi Fluent Bit:
 
-![EKS workshop](../../../../images/0006/00017.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0006/00017.png?featherlight=false&width=90pc)
 
 Chọn `/aws/eks/fluentbit-cloudwatch/workload/ui` để xem các luồng log, mỗi luồng tương ứng với một pod cá nhân:
 
-![EKS workshop](../../../../images/0006/00018.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0006/00018.png?featherlight=false&width=90pc)
 
 Bạn có thể mở rộng một trong các mục log để xem toàn bộ dữ liệu JSON đầy đủ:
 
-![EKS workshop](../../../../images/0006/00019.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0006/00019.png?featherlight=false&width=90pc)

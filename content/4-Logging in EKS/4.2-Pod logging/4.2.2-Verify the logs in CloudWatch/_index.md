@@ -46,14 +46,14 @@ Open the CloudWatch Logs console to check these logs are appearing:
 
 Filter for **fluentbit-cloudwatch** to find the log groups created by Fluent Bit:
 
-![EKS workshop](../../../images/0006/00016.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0006/00016.png?featherlight=false&width=90pc)
 
-![EKS workshop](../../../images/0006/00017.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0006/00017.png?featherlight=false&width=90pc)
 
 Select `/aws/eks/fluentbit-cloudwatch/workload/ui` to view the log streams, each one corresponds to an individual pod:
 
-![EKS workshop](../../../images/0006/00018.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0006/00018.png?featherlight=false&width=90pc)
 
 You can expand one of the log entries to see the full JSON payload:
 
-![EKS workshop](../../../images/0006/00019.png?featherlight=false&width=90pc)
+![EKS workshop](/images/0006/00019.png?featherlight=false&width=90pc)
